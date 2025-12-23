@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://bank-dashboard-taq9.onrender.com";
 
 export const fetchDashboard = async () => {
   const res = await fetch(`${API_URL}/dashboard`);
